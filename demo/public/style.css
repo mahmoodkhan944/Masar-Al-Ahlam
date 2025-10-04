@@ -1,0 +1,17 @@
+/* Custom styles for aesthetic enhancements, separated from HTML */
+
+/* Custom shadow to give forms and modals a lifted, professional look */
+.shadow-custom {
+    box-shadow: 0 10px 15px -3px rgba(30, 58, 138, 0.1), 0 4px 6px -2px rgba(30, 58, 138, 0.05);
+}
+
+/* Transitions for Visa Cards to make them interactive */
+.visa-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect: lift the card slightly and deepen the shadow */
+.visa-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(30, 58, 138, 0.2), 0 10px 10px -5px rgba(30, 58, 138, 0.1);
+}
